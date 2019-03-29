@@ -6,15 +6,15 @@
   <title>Harry Nguyen</title>
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-
   <div class="container">
     <div class="greeting">
       <h1 id="intro">Hello World!</h1>
-      <p id="about">My name is <span class="important">Harry Nguyen</span> and I am a
-        <span class="important">Computer Science</span> major at Worcester State University. </br>
+      <p id="about">My name is <span class="important">Harry Nguyen</span> and I am majoring in
+        <span class="important">Computer Science</span> at Worcester State University. </br>
         I enjoy creating beautiful work and look forward to improving my
         <span class="important">Web Design</span> skills. </br></br> My goal is to become a great
         <span class="important">Software Developer</span> and one day a
@@ -22,44 +22,46 @@
         Feel free to scroll down to learn more about me!
       </p>
     </div>
-
+    <div style="padding-bottom: 4vh">
+      <h3 style="text-align: center"><span class="highlight">Days until graduation: </span><span id="countdown"></span></h3>
+    </div>
     <hr>
 
     <div class="newSection">
       <h1 class="sectionHeader">What do I know?</h1>
 
-
-      <!-- <div class="container">
-          <div class="row">
-              <div class="col-md-3 col-sm-6">
-                  <div class="progress blue">
-                      <span class="progress-left">
-                          <span class="progress-bar"></span>
-                      </span>
-                      <span class="progress-right">
-                          <span class="progress-bar"></span>
-                      </span>
-                      <div class="progress-value">90%</div>
-                  </div>
-              </div>
-              <div class="col-md-3 col-sm-6">
-                  <div class="progress yellow">
-                      <span class="progress-left">
-                          <span class="progress-bar"></span>
-                      </span>
-                      <span class="progress-right">
-                          <span class="progress-bar"></span>
-                      </span>
-                      <div class="progress-value">75%</div>
-                  </div>
-              </div>
-          </div>
-      </div> -->
-
-
-
-
-
+      <h6>Java</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 84%"></div>
+      </div>
+      <h6>HTML5</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated odd" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 73%"></div>
+      </div>
+      <h6>CSS3</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 64%"></div>
+      </div>
+      <h6>Git</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated odd" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+      </div>
+      <h6>Bootstrap4</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 52%"></div>
+      </div>
+      <h6>Angular</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated odd" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 48%"></div>
+      </div>
+      <h6>JavaScript</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%"></div>
+      </div>
+      <h6>Node.js</h6>
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated odd" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%"></div>
+      </div>
 
     </div>
 
@@ -87,7 +89,7 @@
       <ol>
         <ul> - Actively participated in ongoing designs and enhancements for GUI</ul>
         <ul> - Responsible for implementing features, testing and debugging errors</ul>
-        <ul> - Worked within a team of six individuals in an agile environment performing multiple sprints</ul>
+        <ul> - Worked within a team of six individuals in an agile environment performing multiple sprints to meet end goals</ul>
         <ul> - Implemented use of AngularJS, HTML5, CSS3 on front-end and Node.js on back-end</ul>
       </ol>
     </div>
@@ -95,30 +97,41 @@
     <hr>
 
     <div class="newSection">
-      <h1 class="sectionHeader">Some of my favorite places to be!</h1>
+      <h1 class="sectionHeader">Some of my favorite places to be</h1>
     </div>
 
     <div class="row">
       <div class="col-lg-4 col-md-6">
-        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-thumbnail">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="grow img-thumbnail">
       </div>
       <div class="col-lg-4 col-md-6">
-        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-thumbnail">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="grow img-thumbnail">
       </div>
       <div class="col-lg-4 col-md-6">
-        <img src="https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-thumbnail">
+        <img src="https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="grow img-thumbnail">
       </div>
       <div class="col-lg-4 col-md-6">
-        <img src="https://images.unsplash.com/photo-1510082460461-62a0f312e2e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-thumbnail">
+        <img src="https://images.unsplash.com/photo-1510082460461-62a0f312e2e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="grow img-thumbnail">
       </div>
       <div class="col-lg-4 col-md-6">
-        <img src="https://images.unsplash.com/photo-1552301398-7c3888f1ec4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-thumbnail">
+        <img src="https://images.unsplash.com/photo-1552301398-7c3888f1ec4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="grow img-thumbnail">
       </div>
       <div class="col-lg-4 col-md-6">
-        <img src="https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-thumbnail">
+        <img src="https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="grow img-thumbnail">
       </div>
     </div>
 
+    <hr>
+
+    <div class="newSection">
+      <h1 class="sectionHeader">Contact & Social Medias</h1>
+      <div class="d-flex justify-content-center">
+        <a href="mailto:harrynguyen927@gmail.com" target="_blank"><button type="button" class="btn btn-outline-light"><i class="far fa-envelope"></i> Email</button></a>
+        <a href="https://github.com/iHarryNguyen" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fab fa-github"></i> GitHub</button></a>
+        <a href="https://codepen.io/iharrynguyen/" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fab fa-codepen"></i> CodePen</button></a>
+        <a href="http://iharrynguyen.wordpress.com" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fab fa-wordpress-simple"></i> WordPress</button></a>
+      </div>
+    </div>
 
 
 
