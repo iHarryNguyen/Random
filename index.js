@@ -1,33 +1,22 @@
-var ctxL = document.getElementById("lineChart").getContext('2d');
-var myLineChart = new Chart(ctxL, {
-  type: 'line',
-  data: {
-    labels: ["January", "February", "March", "April", "May", "June", "July"],
-    datasets: [{
-        label: "My First dataset",
-        data: [65, 59, 80, 81, 56, 55, 40],
-        backgroundColor: [
-          'rgba(105, 0, 132, .2)',
-        ],
-        borderColor: [
-          'rgba(200, 99, 132, .7)',
-        ],
-        borderWidth: 2
-      },
-      {
-        label: "My Second dataset",
-        data: [28, 48, 40, 19, 86, 27, 90],
-        backgroundColor: [
-          'rgba(0, 137, 132, .2)',
-        ],
-        borderColor: [
-          'rgba(0, 10, 130, .7)',
-        ],
-        borderWidth: 2
-      }
-    ]
+var bar = new ProgressBar.Circle(container, {
+  color: '#FFEA82',
+  trailColor: '#eee',
+  trailWidth: 1,
+  duration: 1400,
+  easing: 'bounce',
+  strokeWidth: 6,
+  from: {
+    color: '#FFEA82',
+    a: 0
   },
-  options: {
-    responsive: true
+  to: {
+    color: '#ED6A5A',
+    a: 1
+  },
+  // Set default step function for all animate calls
+  step: function(state, circle) {
+    circle.path.setAttribute('stroke', state.color);
   }
 });
+
+bar.animate(1.0); // Number from 0.0 to 1.0
